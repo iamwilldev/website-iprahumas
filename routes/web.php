@@ -14,5 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('frontend.landingpage.index');
+});
+
+Route::get('/berita', function () {
+    return view('frontend.landingpage.berita');
 });
